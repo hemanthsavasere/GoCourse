@@ -19,9 +19,9 @@ func main() {
 
 	fmt.Println(marks)
 
-	for k, v := range m {
-		fmt.Println("This is the record for", k)
-		for i, v2 := range v {
+	for key, val := range m {
+		fmt.Println("This is the record for", key)
+		for i, v2 := range val {
 			fmt.Println("\t", i, v2)
 		}
 	}
